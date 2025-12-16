@@ -10,7 +10,7 @@ open_file(){
         return 1
     fi
 
-    cat "$file"
+    cat "$file"sdf
 
     read -p "Enter word to fetch from the file: " word
 
